@@ -1,0 +1,97 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Exercise 1: Word Count",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_1.WordCountDriver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_1/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_1/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Exercise 2: Word Count per File",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_2.WordCountDriver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_2/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_2/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Exercise 3: PM10 Pollution Analysis",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_3.PM10Driver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_3/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_3/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Exercise 4: PM10 Pollution Analysis per City Zone",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_4.PM10ZoneDriver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_4/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_4/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Exercise 5: Average PM10 Value per Sensor",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_5.PM10AverageDriver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_5/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_5/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Exercise 6: Max and Min PM10 Values per Sensor",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_6.PM10MaxMinDriver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_6/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_6/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Exercise 7: Inverted Index",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_7.InvertedIndexDriver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_7/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_7/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        }
+        
+    ]
+}
