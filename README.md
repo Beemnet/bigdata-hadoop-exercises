@@ -18,9 +18,7 @@ These exercises were developed as part of a Big Data course offered in the Maste
     - [Exercise 7: Inverted Index](#exercise-7-inverted-index)
     - [Exercise 8: Total Income and Average Monthly Income](#exercise-8-total-income-and-average-monthly-income)
 3. [Usage](#usage)
-4. [Running the code](#running-the-code)
-5. [Contributing](#contributing)
-6. [License](#license)
+4. [Contributing](#contributing)
 
 ## Setup
 
@@ -70,11 +68,17 @@ This exercise calculates the total income for each month of the year and the ave
 
 ## Usage
 
-To run each exercise, use the provided launch.json configuration for your IDE or execute the corresponding driver class from the command line. The outputs of each function can be found in the output folders of each exercise
+### View
 
-## Running the code
+The outputs of each function can be found in the output folders of each exercise. 
 
-To observe the behavior of each function, delete the output folders for each exercise before running the MapReduce job again. The output directories are specified in the launch.json file for each exercise.
+### Running the code
+
+To run each exercise, use the provided launch.json configuration for your IDE or execute the corresponding driver class from the command line. 
+The input files are available under the input folder for each excerise.
+
+**To observe the behavior of each function, delete the output folders for each exercise before running the MapReduce job again. The output directories are specified in the launch.json file for each exercise.**
+
 
 ## Contributing
 
@@ -82,6 +86,6 @@ Pull requests and contributions are welcome. For major changes, please open an i
 Feel free to fork this repository to explore the exercises, experiment with the code, or use them for your own learning purposes.
 
 
-This is an example Java project used in Codeanywhere.
+This is a Java project used in Codeanywhere.
 
 [Try it out](https://app.codeanywhere.com/#https://github.com/Codeanywhere-Templates/java)
