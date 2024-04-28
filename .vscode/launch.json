@@ -91,7 +91,19 @@
             ],
             "console": "internalConsole",
             "stopOnEntry": false
-        }
-        
+        },
+        {
+            "name": "Exercise 8: Income Analysis",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "epita.fr.exercise_8.IncomeDriver",
+            "projectName": "hadoop_bigdata",
+            "args": [
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_8/input",
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_8/output"
+            ],
+            "console": "internalConsole",
+            "stopOnEntry": false
+        }        
     ]
 }
