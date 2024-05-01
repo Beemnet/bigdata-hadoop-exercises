@@ -19,6 +19,7 @@ public class WordCountMapper
 
         // Emit each word with a count of 1
         for (String w : words) {
+            w = w.replaceAll("\\.", "");
             word.set(w.toLowerCase());
             context.write(word, one);
         }

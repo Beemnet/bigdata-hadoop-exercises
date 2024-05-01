@@ -13,6 +13,7 @@ public class WordCountMapper extends Mapper<LongWritable, Text, Text, LongWritab
             throws IOException, InterruptedException {
         String[] words = value.toString().split("\\s+");
         for (String w : words) {
+            w = w.replaceAll("\\.", "");
             word.set(w);
             context.write(word, ONE);
         }

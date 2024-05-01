@@ -1,4 +1,4 @@
 Toy example 
-file for Hadoop
+file for Hadoop.
 Hadoop running 
-example
+example.
