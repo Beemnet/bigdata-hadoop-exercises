@@ -24,8 +24,8 @@ public class PM10ZoneDriver {
         job.setOutputFormatClass(TextOutputFormat.class);
 
         // Set input and output paths
-        TextInputFormat.addInputPath(job, new Path("hadoop_bigdata/src/main/java/epita/fr/exercise_4/input")); // Input path
-        TextOutputFormat.setOutputPath(job, new Path("hadoop_bigdata/src/main/java/epita/fr/exercise_4/output")); // Output path
+        TextInputFormat.addInputPath(job, new Path(args[0]));
+        TextOutputFormat.setOutputPath(job, new Path(args[0]));
 
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }

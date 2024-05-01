@@ -8,7 +8,8 @@ import org.apache.hadoop.mapreduce.Mapper;
 public class PM10Mapper extends Mapper<LongWritable, Text, Text, Text> {
 
     @Override
-    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+    protected void map(LongWritable key, Text value, Context context)
+            throws IOException, InterruptedException {
         // Split the input line into fields: sensorId, date, pm10Value
         String[] fields = value.toString().split("\\s*,\\s*");
 

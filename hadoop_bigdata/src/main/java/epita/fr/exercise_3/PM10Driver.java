@@ -24,8 +24,8 @@ public class PM10Driver {
         job.setOutputFormatClass(TextOutputFormat.class);
 
         // Set input and output paths
-        TextInputFormat.addInputPath(job, new Path("hadoop_bigdata/src/main/java/epita/fr/exercise_3/input")); 
-        TextOutputFormat.setOutputPath(job, new Path("hadoop_bigdata/src/main/java/epita/fr/exercise_3/output")); 
+        TextInputFormat.addInputPath(job, new Path(args[0]));
+        TextOutputFormat.setOutputPath(job, new Path(args[0]));
 
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }

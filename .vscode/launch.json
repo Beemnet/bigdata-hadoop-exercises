@@ -9,7 +9,7 @@
             "projectName": "hadoop_bigdata",
             "args": [
                 "hadoop_bigdata/src/main/java/epita/fr/exercise_1/input",
-                "hadoop_bigdata/src/main/java/epita/fr/exercise_1/output"
+                "hadoop_bigdata/src/main/java/epita/fr/exercise_1/output2"
             ],
             "console": "internalConsole",
             "stopOnEntry": false

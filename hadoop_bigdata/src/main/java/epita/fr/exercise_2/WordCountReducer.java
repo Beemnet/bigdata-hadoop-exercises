@@ -5,7 +5,8 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-public class WordCountReducer extends Reducer<Text, LongWritable, Text, LongWritable> {
+public class WordCountReducer
+        extends Reducer<Text, LongWritable, Text, LongWritable> {
 
     private final LongWritable result = new LongWritable();
 

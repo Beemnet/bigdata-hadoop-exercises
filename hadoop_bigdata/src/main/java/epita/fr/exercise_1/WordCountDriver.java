@@ -22,9 +22,6 @@ public class WordCountDriver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(LongWritable.class);
 
-        // TextInputFormat.addInputPath(job, new Path("/workspaces/java/hadoop_bigdata/src/main/java/epita/fr/exercise_1/input"));
-        // TextOutputFormat.setOutputPath(job, new Path("/workspaces/java/hadoop_bigdata/src/main/java/epita/fr/exercise_1/output"));
-
         TextInputFormat.addInputPath(job, new Path(args[0])); // Input path
         TextOutputFormat.setOutputPath(job, new Path(args[1])); // Output path
 

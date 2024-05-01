@@ -21,9 +21,8 @@ public class WordCountDriver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(LongWritable.class);
 
-        // Specify the input path as the directory containing input files (including subdirectories)
         FileInputFormat.addInputPath(job, new Path(args[0]));
-        TextOutputFormat.setOutputPath(job, new Path(args[1])); 
+        TextOutputFormat.setOutputPath(job, new Path(args[1]));
 
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
